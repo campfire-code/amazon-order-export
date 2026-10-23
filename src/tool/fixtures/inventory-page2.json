@@ -1,0 +1,78 @@
+{
+ "payload": {
+  "granularity": {
+   "granularityType": "Marketplace",
+   "granularityId": "ATVPDKIKX0DER"
+  },
+  "inventorySummaries": [
+   {
+    "asin": "B0DEMO0005",
+    "fnSku": "X00DEMO005",
+    "sellerSku": "DEMO-CABLE-1M",
+    "condition": "NewItem",
+    "productName": "【示例】编织快充数据线 1 米",
+    "lastUpdatedTime": "2026-10-23T08:30:00Z",
+    "totalQuantity": 93,
+    "inventoryDetails": {
+     "fulfillableQuantity": 87,
+     "inboundWorkingQuantity": 0,
+     "inboundShippedQuantity": 0,
+     "inboundReceivingQuantity": 0,
+     "reservedQuantity": {
+      "totalReservedQuantity": 6,
+      "pendingCustomerOrderQuantity": 6,
+      "pendingTransshipmentQuantity": 0,
+      "fcProcessingQuantity": 0
+     },
+     "researchingQuantity": {
+      "totalResearchingQuantity": 0,
+      "researchingQuantityBreakdown": []
+     },
+     "unfulfillableQuantity": {
+      "totalUnfulfillableQuantity": 0,
+      "customerDamagedQuantity": 0,
+      "warehouseDamagedQuantity": 0,
+      "distributorDamagedQuantity": 0,
+      "carrierDamagedQuantity": 0,
+      "defectiveQuantity": 0,
+      "expiredQuantity": 0
+     }
+    }
+   },
+   {
+    "asin": "B0DEMO0006",
+    "fnSku": "X00DEMO006",
+    "sellerSku": "DEMO-BAG-TOTE",
+    "condition": "NewItem",
+    "productName": "【示例】加厚帆布托特包",
+    "lastUpdatedTime": "2026-10-23T08:30:00Z",
+    "totalQuantity": 49,
+    "inventoryDetails": {
+     "fulfillableQuantity": 15,
+     "inboundWorkingQuantity": 0,
+     "inboundShippedQuantity": 30,
+     "inboundReceivingQuantity": 0,
+     "reservedQuantity": {
+      "totalReservedQuantity": 3,
+      "pendingCustomerOrderQuantity": 3,
+      "pendingTransshipmentQuantity": 0,
+      "fcProcessingQuantity": 0
+     },
+     "researchingQuantity": {
+      "totalResearchingQuantity": 0,
+      "researchingQuantityBreakdown": []
+     },
+     "unfulfillableQuantity": {
+      "totalUnfulfillableQuantity": 1,
+      "customerDamagedQuantity": 1,
+      "warehouseDamagedQuantity": 0,
+      "distributorDamagedQuantity": 0,
+      "carrierDamagedQuantity": 0,
+      "defectiveQuantity": 0,
+      "expiredQuantity": 0
+     }
+    }
+   }
+  ]
+ }
+}

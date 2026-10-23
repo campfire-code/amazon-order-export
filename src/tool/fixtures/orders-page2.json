@@ -1,0 +1,460 @@
+{
+ "orders": [
+  {
+   "orderId": "000-1026021-0000008",
+   "createdTime": "2026-10-21T09:12:00Z",
+   "lastUpdatedTime": "2026-10-21T10:40:00Z",
+   "programs": [],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "38.98",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "38.98",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "PARTIALLY_SHIPPED",
+    "fulfilledBy": "MERCHANT",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-21T09:12:00Z",
+     "latestDateTime": "2026-10-23T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "08010000000001",
+     "quantityOrdered": 1,
+     "product": {
+      "asin": "B0DEMO0002",
+      "title": "【示例】加厚防滑瑜伽垫 10mm",
+      "sellerSku": "DEMO-YOGA-MAT",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "25.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "25.99",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "25.99",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 1,
+      "quantityUnfulfilled": 0
+     }
+    },
+    {
+     "orderItemId": "08020000000001",
+     "quantityOrdered": 1,
+     "product": {
+      "asin": "B0DEMO0004",
+      "title": "【示例】运动中筒袜 5 双装",
+      "sellerSku": "DEMO-SOCK-5P",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "12.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "12.99",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "12.99",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 0,
+      "quantityUnfulfilled": 1
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026020-0000009",
+   "createdTime": "2026-10-20T22:12:00Z",
+   "lastUpdatedTime": "2026-10-20T23:40:00Z",
+   "programs": [
+    "PRIME"
+   ],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "35.00",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "35.00",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "SHIPPED",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-20T22:12:00Z",
+     "latestDateTime": "2026-10-22T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "09010000000001",
+     "quantityOrdered": 2,
+     "product": {
+      "asin": "B0DEMO0006",
+      "title": "【示例】加厚帆布托特包",
+      "sellerSku": "DEMO-BAG-TOTE",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "17.50",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "35.00",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "35.00",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 2,
+      "quantityUnfulfilled": 0
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026020-0000010",
+   "createdTime": "2026-10-20T16:12:00Z",
+   "lastUpdatedTime": "2026-10-20T17:40:00Z",
+   "programs": [],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "35.48",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "35.48",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "SHIPPED",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-20T16:12:00Z",
+     "latestDateTime": "2026-10-22T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "10010000000001",
+     "quantityOrdered": 1,
+     "product": {
+      "asin": "B0DEMO0003",
+      "title": "【示例】USB 护眼小台灯 三档调光",
+      "sellerSku": "DEMO-LAMP-USB",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "15.49",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "15.49",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "15.49",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 1,
+      "quantityUnfulfilled": 0
+     }
+    },
+    {
+     "orderItemId": "10020000000001",
+     "quantityOrdered": 1,
+     "product": {
+      "asin": "B0DEMO0001",
+      "title": "【示例】不锈钢保温杯 500ml 哑光黑",
+      "sellerSku": "DEMO-BOTTLE-500",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "19.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "19.99",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "19.99",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 1,
+      "quantityUnfulfilled": 0
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026020-0000011",
+   "createdTime": "2026-10-20T11:12:00Z",
+   "lastUpdatedTime": "2026-10-20T12:40:00Z",
+   "programs": [],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "38.97",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "38.97",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "SHIPPED",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-20T11:12:00Z",
+     "latestDateTime": "2026-10-22T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "11010000000001",
+     "quantityOrdered": 3,
+     "product": {
+      "asin": "B0DEMO0004",
+      "title": "【示例】运动中筒袜 5 双装",
+      "sellerSku": "DEMO-SOCK-5P",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "12.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "38.97",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "38.97",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 3,
+      "quantityUnfulfilled": 0
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026019-0000012",
+   "createdTime": "2026-10-19T19:12:00Z",
+   "lastUpdatedTime": "2026-10-19T20:40:00Z",
+   "programs": [
+    "PRIME"
+   ],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "51.98",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "51.98",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "SHIPPED",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-19T19:12:00Z",
+     "latestDateTime": "2026-10-21T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "12010000000001",
+     "quantityOrdered": 2,
+     "product": {
+      "asin": "B0DEMO0002",
+      "title": "【示例】加厚防滑瑜伽垫 10mm",
+      "sellerSku": "DEMO-YOGA-MAT",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "25.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "51.98",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "51.98",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 2,
+      "quantityUnfulfilled": 0
+     }
+    }
+   ]
+  }
+ ],
+ "createdBefore": "2026-10-23T09:00:00Z"
+}

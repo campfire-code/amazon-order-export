@@ -1,0 +1,149 @@
+{
+ "pagination": {
+  "nextToken": "DEMO-INV-2"
+ },
+ "payload": {
+  "granularity": {
+   "granularityType": "Marketplace",
+   "granularityId": "ATVPDKIKX0DER"
+  },
+  "inventorySummaries": [
+   {
+    "asin": "B0DEMO0001",
+    "fnSku": "X00DEMO001",
+    "sellerSku": "DEMO-BOTTLE-500",
+    "condition": "NewItem",
+    "productName": "【示例】不锈钢保温杯 500ml 哑光黑",
+    "lastUpdatedTime": "2026-10-23T08:30:00Z",
+    "totalQuantity": 200,
+    "inventoryDetails": {
+     "fulfillableQuantity": 146,
+     "inboundWorkingQuantity": 0,
+     "inboundShippedQuantity": 40,
+     "inboundReceivingQuantity": 0,
+     "reservedQuantity": {
+      "totalReservedQuantity": 12,
+      "pendingCustomerOrderQuantity": 12,
+      "pendingTransshipmentQuantity": 0,
+      "fcProcessingQuantity": 0
+     },
+     "researchingQuantity": {
+      "totalResearchingQuantity": 0,
+      "researchingQuantityBreakdown": []
+     },
+     "unfulfillableQuantity": {
+      "totalUnfulfillableQuantity": 2,
+      "customerDamagedQuantity": 2,
+      "warehouseDamagedQuantity": 0,
+      "distributorDamagedQuantity": 0,
+      "carrierDamagedQuantity": 0,
+      "defectiveQuantity": 0,
+      "expiredQuantity": 0
+     }
+    }
+   },
+   {
+    "asin": "B0DEMO0002",
+    "fnSku": "X00DEMO002",
+    "sellerSku": "DEMO-YOGA-MAT",
+    "condition": "NewItem",
+    "productName": "【示例】加厚防滑瑜伽垫 10mm",
+    "lastUpdatedTime": "2026-10-23T08:30:00Z",
+    "totalQuantity": 43,
+    "inventoryDetails": {
+     "fulfillableQuantity": 38,
+     "inboundWorkingQuantity": 60,
+     "inboundShippedQuantity": 0,
+     "inboundReceivingQuantity": 0,
+     "reservedQuantity": {
+      "totalReservedQuantity": 4,
+      "pendingCustomerOrderQuantity": 4,
+      "pendingTransshipmentQuantity": 0,
+      "fcProcessingQuantity": 0
+     },
+     "researchingQuantity": {
+      "totalResearchingQuantity": 1,
+      "researchingQuantityBreakdown": []
+     },
+     "unfulfillableQuantity": {
+      "totalUnfulfillableQuantity": 0,
+      "customerDamagedQuantity": 0,
+      "warehouseDamagedQuantity": 0,
+      "distributorDamagedQuantity": 0,
+      "carrierDamagedQuantity": 0,
+      "defectiveQuantity": 0,
+      "expiredQuantity": 0
+     }
+    }
+   },
+   {
+    "asin": "B0DEMO0003",
+    "fnSku": "X00DEMO003",
+    "sellerSku": "DEMO-LAMP-USB",
+    "condition": "NewItem",
+    "productName": "【示例】USB 护眼小台灯 三档调光",
+    "lastUpdatedTime": "2026-10-23T08:30:00Z",
+    "totalQuantity": 120,
+    "inventoryDetails": {
+     "fulfillableQuantity": 0,
+     "inboundWorkingQuantity": 0,
+     "inboundShippedQuantity": 0,
+     "inboundReceivingQuantity": 120,
+     "reservedQuantity": {
+      "totalReservedQuantity": 0,
+      "pendingCustomerOrderQuantity": 0,
+      "pendingTransshipmentQuantity": 0,
+      "fcProcessingQuantity": 0
+     },
+     "researchingQuantity": {
+      "totalResearchingQuantity": 0,
+      "researchingQuantityBreakdown": []
+     },
+     "unfulfillableQuantity": {
+      "totalUnfulfillableQuantity": 0,
+      "customerDamagedQuantity": 0,
+      "warehouseDamagedQuantity": 0,
+      "distributorDamagedQuantity": 0,
+      "carrierDamagedQuantity": 0,
+      "defectiveQuantity": 0,
+      "expiredQuantity": 0
+     }
+    }
+   },
+   {
+    "asin": "B0DEMO0004",
+    "fnSku": "X00DEMO004",
+    "sellerSku": "DEMO-SOCK-5P",
+    "condition": "NewItem",
+    "productName": "【示例】运动中筒袜 5 双装",
+    "lastUpdatedTime": "2026-10-23T08:30:00Z",
+    "totalQuantity": 226,
+    "inventoryDetails": {
+     "fulfillableQuantity": 212,
+     "inboundWorkingQuantity": 0,
+     "inboundShippedQuantity": 0,
+     "inboundReceivingQuantity": 0,
+     "reservedQuantity": {
+      "totalReservedQuantity": 9,
+      "pendingCustomerOrderQuantity": 9,
+      "pendingTransshipmentQuantity": 0,
+      "fcProcessingQuantity": 0
+     },
+     "researchingQuantity": {
+      "totalResearchingQuantity": 0,
+      "researchingQuantityBreakdown": []
+     },
+     "unfulfillableQuantity": {
+      "totalUnfulfillableQuantity": 5,
+      "customerDamagedQuantity": 5,
+      "warehouseDamagedQuantity": 0,
+      "distributorDamagedQuantity": 0,
+      "carrierDamagedQuantity": 0,
+      "defectiveQuantity": 0,
+      "expiredQuantity": 0
+     }
+    }
+   }
+  ]
+ }
+}

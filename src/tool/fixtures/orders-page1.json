@@ -1,0 +1,581 @@
+{
+ "orders": [
+  {
+   "orderId": "000-1026022-0000001",
+   "createdTime": "2026-10-22T21:12:00Z",
+   "lastUpdatedTime": "2026-10-22T22:40:00Z",
+   "programs": [],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "19.99",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "19.99",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "UNSHIPPED",
+    "fulfilledBy": "MERCHANT",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-22T21:12:00Z",
+     "latestDateTime": "2026-10-24T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "01010000000001",
+     "quantityOrdered": 1,
+     "product": {
+      "asin": "B0DEMO0001",
+      "title": "【示例】不锈钢保温杯 500ml 哑光黑",
+      "sellerSku": "DEMO-BOTTLE-500",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "19.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "19.99",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "19.99",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 0,
+      "quantityUnfulfilled": 1
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026022-0000002",
+   "createdTime": "2026-10-22T18:12:00Z",
+   "lastUpdatedTime": "2026-10-22T19:40:00Z",
+   "programs": [],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "25.98",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "25.98",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "PENDING",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-22T18:12:00Z",
+     "latestDateTime": "2026-10-24T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "02010000000001",
+     "quantityOrdered": 2,
+     "product": {
+      "asin": "B0DEMO0004",
+      "title": "【示例】运动中筒袜 5 双装",
+      "sellerSku": "DEMO-SOCK-5P",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "12.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "25.98",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "25.98",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 0,
+      "quantityUnfulfilled": 2
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026022-0000003",
+   "createdTime": "2026-10-22T15:12:00Z",
+   "lastUpdatedTime": "2026-10-22T16:40:00Z",
+   "programs": [
+    "PRIME"
+   ],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "43.97",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "43.97",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "SHIPPED",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-22T15:12:00Z",
+     "latestDateTime": "2026-10-24T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "03010000000001",
+     "quantityOrdered": 1,
+     "product": {
+      "asin": "B0DEMO0002",
+      "title": "【示例】加厚防滑瑜伽垫 10mm",
+      "sellerSku": "DEMO-YOGA-MAT",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "25.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "25.99",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "25.99",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 1,
+      "quantityUnfulfilled": 0
+     }
+    },
+    {
+     "orderItemId": "03020000000001",
+     "quantityOrdered": 2,
+     "product": {
+      "asin": "B0DEMO0005",
+      "title": "【示例】编织快充数据线 1 米",
+      "sellerSku": "DEMO-CABLE-1M",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "8.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "17.98",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "17.98",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 2,
+      "quantityUnfulfilled": 0
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026022-0000004",
+   "createdTime": "2026-10-22T10:12:00Z",
+   "lastUpdatedTime": "2026-10-22T11:40:00Z",
+   "programs": [],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "15.49",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "15.49",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "SHIPPED",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-22T10:12:00Z",
+     "latestDateTime": "2026-10-24T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "04010000000001",
+     "quantityOrdered": 1,
+     "product": {
+      "asin": "B0DEMO0003",
+      "title": "【示例】USB 护眼小台灯 三档调光",
+      "sellerSku": "DEMO-LAMP-USB",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "15.49",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "15.49",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "15.49",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 1,
+      "quantityUnfulfilled": 0
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026021-0000005",
+   "createdTime": "2026-10-21T23:12:00Z",
+   "lastUpdatedTime": "2026-10-21T23:40:00Z",
+   "programs": [],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "39.98",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "39.98",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "SHIPPED",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-21T23:12:00Z",
+     "latestDateTime": "2026-10-23T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "05010000000001",
+     "quantityOrdered": 2,
+     "product": {
+      "asin": "B0DEMO0001",
+      "title": "【示例】不锈钢保温杯 500ml 哑光黑",
+      "sellerSku": "DEMO-BOTTLE-500",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "19.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "39.98",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "39.98",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 2,
+      "quantityUnfulfilled": 0
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026021-0000006",
+   "createdTime": "2026-10-21T20:12:00Z",
+   "lastUpdatedTime": "2026-10-21T21:40:00Z",
+   "programs": [
+    "PRIME"
+   ],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "0.00",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "0.00",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "CANCELLED",
+    "fulfilledBy": "AMAZON",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-21T20:12:00Z",
+     "latestDateTime": "2026-10-23T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "06010000000001",
+     "quantityOrdered": 1,
+     "product": {
+      "asin": "B0DEMO0006",
+      "title": "【示例】加厚帆布托特包",
+      "sellerSku": "DEMO-BAG-TOTE",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "17.50",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "0.00",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "0.00",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 0,
+      "quantityUnfulfilled": 1
+     }
+    }
+   ]
+  },
+  {
+   "orderId": "000-1026021-0000007",
+   "createdTime": "2026-10-21T14:12:00Z",
+   "lastUpdatedTime": "2026-10-21T15:40:00Z",
+   "programs": [],
+   "salesChannel": {
+    "channelName": "AMAZON",
+    "marketplaceId": "ATVPDKIKX0DER",
+    "marketplaceName": "Amazon.com"
+   },
+   "proceeds": {
+    "grandTotal": {
+     "amount": "26.97",
+     "currencyCode": "USD"
+    },
+    "breakdowns": [
+     {
+      "type": "ITEM",
+      "subtotal": {
+       "amount": "26.97",
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "fulfillment": {
+    "fulfillmentStatus": "SHIPPED",
+    "fulfilledBy": "MERCHANT",
+    "fulfillmentServiceLevel": "STANDARD",
+    "shipByWindow": {
+     "earliestDateTime": "2026-10-21T14:12:00Z",
+     "latestDateTime": "2026-10-23T23:59:59Z"
+    }
+   },
+   "orderItems": [
+    {
+     "orderItemId": "07010000000001",
+     "quantityOrdered": 3,
+     "product": {
+      "asin": "B0DEMO0005",
+      "title": "【示例】编织快充数据线 1 米",
+      "sellerSku": "DEMO-CABLE-1M",
+      "condition": {
+       "conditionType": "NEW",
+       "conditionSubtype": "NEW"
+      },
+      "price": {
+       "unitPrice": {
+        "amount": "8.99",
+        "currencyCode": "USD"
+       }
+      }
+     },
+     "proceeds": {
+      "proceedsTotal": {
+       "amount": "26.97",
+       "currencyCode": "USD"
+      },
+      "breakdowns": [
+       {
+        "type": "ITEM",
+        "subtotal": {
+         "amount": "26.97",
+         "currencyCode": "USD"
+        }
+       }
+      ]
+     },
+     "fulfillment": {
+      "quantityFulfilled": 3,
+      "quantityUnfulfilled": 0
+     }
+    }
+   ],
+   "orderAliases": [
+    {
+     "aliasId": "SHOP-20261021-007",
+     "aliasType": "SELLER_ORDER_ID"
+    }
+   ]
+  }
+ ],
+ "pagination": {
+  "nextToken": "DEMO-PAGE-2"
+ },
+ "createdBefore": "2026-10-23T09:00:00Z"
+}

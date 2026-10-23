@@ -1,0 +1,9 @@
+{
+ "errors": [
+  {
+   "code": "Unauthorized",
+   "message": "simulated: access denied",
+   "details": ""
+  }
+ ]
+}

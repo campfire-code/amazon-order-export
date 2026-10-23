@@ -1,0 +1,18 @@
+/* 亚马逊订单库存导出：只用 kit.css 的变量，类名以 ao- 开头。 */
+.ao-root { flex: 1; min-height: 0; display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-start; }
+.ao-side { flex: 0 1 340px; min-width: 280px; padding: 14px 16px; display: grid; gap: 10px; }
+.ao-main { flex: 1 1 380px; min-width: 0; padding: 14px 16px; display: grid; gap: 12px; align-content: start; min-height: 320px; }
+.ao-side .k-section { margin: 6px 0 0; }
+.ao-note { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: .88em; margin: 0; }
+.ao-dates { display: flex; align-items: center; gap: 8px; }
+.ao-dates .k-input { min-width: 0; flex: 1; }
+.ao-chips { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.ao-actions { display: flex; gap: 8px; margin-top: 4px; }
+.ao-busy { display: flex; align-items: center; gap: 8px; }
+.ao-sum { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px; }
+.ao-sum > div { display: grid; gap: 2px; padding: 10px 12px; border-radius: var(--radius); background: var(--side); }
+.ao-sum b { font-size: 1.35em; line-height: 1.2; }
+.ao-sum .k-muted { font-size: .85em; }
+.ao-file { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.ao-table { max-height: 330px; }
+.ao-prod { width: 190px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
