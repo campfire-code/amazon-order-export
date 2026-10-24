@@ -2,12 +2,13 @@
   "id": "e14",
   "slug": "amazon-order-export",
   "name": "亚马逊订单库存导出",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repo": "campfire-code/amazon-order-export",
   "license": "MIT",
   "ui": {
-    "layout": "b",
-    "palette": "amber"
+    "layout": "f",
+    "palette": "amber",
+    "accent": "#C15215"
   },
   "upstream": {
     "repo": "saleweaver/python-amazon-sp-api",

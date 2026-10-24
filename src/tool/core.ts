@@ -57,7 +57,7 @@ export const STATUSES: [string, string][] = [
 ];
 export const statusName = (s?: string) => (s ? STATUSES.find(([k]) => k === s)?.[1] ?? s : '');
 
-export const FULFILLED_BY: [string, string][] = [['', '全部'], ['AMAZON', '亚马逊配送（FBA）'], ['MERCHANT', '卖家自配送']];
+export const FULFILLED_BY: [string, string][] = [['', '全部'], ['AMAZON', '亚马逊物流配送（FBA）'], ['MERCHANT', '卖家自配送']];
 export const fulfilledByName = (s?: string) => (s === 'AMAZON' ? 'FBA' : s === 'MERCHANT' ? '自配送' : s ?? '');
 
 // ---------------- 授权 ----------------
@@ -378,8 +378,8 @@ export function explainError(status: number, body: string): string {
     else if (j.error) { code = j.error; message = j.error_description ?? ''; }
   } catch { /* 不是 JSON */ }
   const tail = message ? `（${code ? code + '：' : ''}${message.slice(0, 160)}）` : code ? `（${code}）` : '';
-  if (code === 'invalid_client') return `Client ID 或 Client Secret 不正确${tail}`;
-  if (code === 'invalid_grant') return `Refresh Token 无效或已被撤销，请到卖家后台重新授权${tail}`;
+  if (code === 'invalid_client') return `Client ID（客户端编号）或 Client Secret（客户端密钥）不正确${tail}`;
+  if (code === 'invalid_grant') return `Refresh Token（刷新令牌）无效或已被撤销，请到卖家后台重新授权${tail}`;
   if (status === 401) return `授权失败，请检查凭据${tail}`;
   if (status === 403) return `没有权限：应用可能未申请对应角色，或站点不属于该卖家账户${tail}`;
   if (status === 429) return `请求太频繁，被亚马逊限流${tail}`;

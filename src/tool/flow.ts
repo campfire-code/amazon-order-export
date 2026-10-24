@@ -26,7 +26,7 @@ export interface Io {
 export interface ExportOutcome { path: string; orders: ApiOrder[]; inventory: ApiInventorySummary[]; totals: Totals; sheets: string[] }
 
 export function validateOpts(cred: Credentials, o: ExportOpts, demo: boolean): string | null {
-  if (!demo && !credReady(cred)) return '请先填写 Client ID、Client Secret 和 Refresh Token（见「怎么申请」）';
+  if (!demo && !credReady(cred)) return '请先填写 Client ID（客户端编号）、Client Secret（客户端密钥）和 Refresh Token（刷新令牌），见「怎么申请」';
   if (!marketplaceById(o.marketplaceId)) return '请选择站点';
   if (!o.wantOrders && !o.wantItems && !o.wantInventory) return '至少选一项要导出的内容';
   return null;
@@ -64,9 +64,11 @@ export async function runExport(a: {
     info.push(['订单状态', o.statuses.length ? o.statuses.map(statusName).join('、') : '全部']);
     info.push(['配送方式', o.fulfilledBy ? fulfilledByName(o.fulfilledBy) : '全部']);
     info.push(['订单数 / 件数', `${t.orders} 单 / ${t.units} 件`]);
+    // check-zh: 忽略（接口字段名 proceeds.grandTotal，写进说明页供对账）
     info.push(['订单金额合计', amountText(t.amount) + '（不含已取消订单；取自接口 proceeds.grandTotal）']);
   }
   if (o.wantInventory) info.push(['FBA 库存', `${t.skus} 个 SKU，可售合计 ${t.fulfillable} 件`]);
+  // check-zh: 忽略（官方接口名称，写进说明页供核对）
   info.push(['数据来源', '亚马逊 SP-API（Orders 2026-01-01 searchOrders、FBA Inventory getInventorySummaries）']);
   info.push(['隐私', '未请求买家姓名、地址等个人信息']);
   if (a.demo) info.push(['注意', '演示数据，非真实店铺']);
@@ -78,7 +80,7 @@ export async function runExport(a: {
     info,
   });
   await a.io.mkdir(a.outDir);
-  const path = await a.io.join(a.outDir, exportFileName(a.demo ? 'DEMO' : mp.code, o.from, o.to, a.now));
+  const path = await a.io.join(a.outDir, exportFileName(a.demo ? '演示' : mp.code, o.from, o.to, a.now));
   await a.io.writeFile(path, bytes);
   const sheets = [o.wantOrders && '订单', o.wantItems && '订单明细', o.wantInventory && 'FBA库存'].filter(Boolean) as string[];
   return { path, orders, inventory, totals: t, sheets };
